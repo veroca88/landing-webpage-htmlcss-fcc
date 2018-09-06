@@ -1,34 +1,34 @@
 body {
-    background-color: lightslategray;
+    background-image: url(/assets/images/brickwall.jpg)
 }
 #header {
    font-family: 'Bree Serif', serif;
    font-size: 3em;
-   color: white;
+   color: rgb(78, 78, 78);
    margin-left: 6em;
    margin-top: 1em;
-   position: fixed;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding-left: 12%;
+   padding-right: 8%;
 }
 #header-img {
+    position: relative;
     width: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 6%
+    padding-left: 8%;
 }
 
 #nav-bar {
     width: 100%;
-    height: 3em;
+    height: 35px;
     background-color: rgb(70, 236, 220);
-    font-size: 1.2em;
-    color: black;
-    overflow: hidden;
+    font-size: 1.4em;
+    color: indigo;
+    overflow:visible;
     align-content: center;
     justify-content: space-around;
 }
@@ -45,9 +45,43 @@ ul {
 
 main {
     font-size: 1.3em;
-    color: black;
+    color: indigo;
 }
 
 #smartdeal {
+    text-align: center;
     font-weight: bold;
+    padding-top: 50px;
+}
+
+#video {
+    padding: 3% 0% 10% 35%;
+}
+
+#properties {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#support {
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+#form {
+    font-weight: bold;
+    color:rgb(78, 78, 78);
+    margin-top: 25px;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+@media (max-width:600px){
+    body {
+        font-size: 20%;
+    }
 }
